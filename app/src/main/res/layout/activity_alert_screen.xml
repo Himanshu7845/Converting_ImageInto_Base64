@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_white_10"
+    android:orientation="vertical"
+       android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/takePicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Take Picture"
+        android:textColor="#2d2d2d"
+        android:textSize="16sp"
+        android:fontFamily="@font/gotham_medium"
+        android:gravity="center_vertical"
+        app:drawableStartCompat="@drawable/ic_camera_upload"
+        android:drawablePadding="20dp"/>
+
+    <TextView
+        android:id="@+id/selectFile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Select File"
+        android:textColor="#2d2d2d"
+        android:textSize="16sp"
+        android:fontFamily="@font/gotham_medium"
+        android:gravity="center_vertical"
+        app:drawableStartCompat="@drawable/ic_file"
+        android:drawablePadding="20dp"/>
+
+    <TextView
+        android:id="@+id/selectFromGallery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Select from Gallery"
+        android:textColor="#2d2d2d"
+        android:textSize="16sp"
+        android:fontFamily="@font/gotham_medium"
+        android:gravity="center_vertical"
+        app:drawableStartCompat="@drawable/ic_gallery"
+        android:drawablePadding="20dp"/>
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_red_5"
+        android:paddingHorizontal="17dp"
+        android:paddingVertical="7dp"
+        android:text="Cancel"
+        android:fontFamily="@font/gotham_medium"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
